@@ -1,0 +1,121 @@
+html, body{
+    background-image: radial-gradient(circle, black, #272727, #040404);
+    color: #fff;
+}
+
+header {
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+header h3 {
+    font-weight: 200;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+header h3 span{
+    font-weight: 500;
+}
+header h1{
+    font-family: 'Cinzel', serif;
+}
+#trailer{
+    position: relative;
+}
+#description_tab {
+    margin-top: 3em;
+}
+#cta_container {
+    width: 100%;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+a#cta_mail {
+    text-align: center;
+    color: #fff;
+    background-color: #f00;
+    max-width: 90%;
+    padding: 1em 4em;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+a#cta_mail:hover{
+    background-color: #ff3822;
+}
+.with_prefix .prefix{
+    color: #b3b3b3;
+}
+.with_prefix a{
+    text-decoration: none;
+    color: #fff;
+}
+#description_tab ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#trailer img {
+    width: 100%;
+    opacity: 0.6;
+    border: 1px solid #9d9d9dc2;
+    max-width: 700px;
+}
+div#second {
+    border-top: 1px solid #434343;
+    width: 100%;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+#img_lean{
+    background-image: url(../images/lean_peekaboo.jpg);
+}
+#img_satusia{
+    background-image: url(../images/satusia_3.jpg);
+}
+#img_hackup{
+    background-image: url(../images/polymer_hackup.jpg);
+}
+#img_egomnia{
+    background-image: url(../images/egomnia.jpg);
+}
+#img_turing_machine{
+    background-image: url(../images/turing_machine.png);
+}
+.card_div {
+    border: 1px solid #7070708f;
+    height: 22em;
+    margin-bottom: 1em;
+}
+.card_div_img {
+    width: 100%;
+    height: 15em;
+    background-size: cover;
+    background-position: center;
+}
+.card_div_body {
+    margin: 0.5em;
+    font-weight: 300;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+}
+.card_div_body a{
+    color: #fff;
+    font-weight: 500;
+}
+#second .intro{
+    margin-bottom: 2em;
+}
+.animated{
+    opacity: 0;
+}
